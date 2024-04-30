@@ -5,9 +5,6 @@ pragma solidity ^0.8.24;
 import "hardhat/console.sol";
 import "./IERC20.sol";
  
- 
-// WARNING: WHEN DEPLOYING CHANGE EVERYTHING TO PRIVATE ?
- 
 contract PoolV1 {
     struct PoolInfo {
         address admin;
